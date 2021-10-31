@@ -21,11 +21,11 @@ public class TestMammal {
     public void get() {
         Cat cat = new Cat();
         cat.setClawSize(2);
-        cat.setName("Klakier");
+        cat.setName("Cica");
         mammalRepo.save(cat);
 
         Dog dog = new Dog();
-        dog.setName("Reksio");
+        dog.setName("Rex");
         dog.setAgressiveLevel(10);
         mammalRepo.save(dog);
 
